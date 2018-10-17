@@ -8,8 +8,8 @@ class App extends Component {
   render() {
     return (
       <div>
-          <NavBar />
-          <div className="row spacer"></div>
+        <NavBar />
+        <div className="row spacer"></div>
         <div className="row">
           <MainPageVideo />
           <MainPageAbout />
