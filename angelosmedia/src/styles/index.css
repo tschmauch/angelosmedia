@@ -1,5 +1,6 @@
 html {
   background-image: url('../images/New\ Iceberg\ 3.jpg');
+  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -11,7 +12,6 @@ html {
 body {
   margin: 0;
   padding: 0;
-  margin-top: 100px;
   font-family: 'Open Sans Condensed', sans-serif;
   color: white;
   -webkit-font-smoothing: antialiased;
@@ -35,10 +35,44 @@ h1 {
   background-color: transparent;
 }
 
-.spacer {
-  height: 33vh;
+.mainRow {
+  background-color: transparent;
+  height: 100vh;
 }
 
-.row {
-  background-color: transparent;
+.hovering {
+  font-size: 500%;
+}
+
+#mainPageVideo.hovering {
+  background-image: url('../images/icebergLeft.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  back
+  height: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+#mainPageAbout.hovering {
+  background-image: url('../images/icebergMid.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  back
+  height: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+#mainPagePhoto.hovering {
+  background-image: url('../images/icebergRight.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  back
+  height: 100%;
+  overflow: auto;
+  overflow-x: hidden;
 }

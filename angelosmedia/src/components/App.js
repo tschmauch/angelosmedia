@@ -9,8 +9,7 @@ class App extends Component {
     return (
       <div>
         <NavBar />
-        <div className="row spacer"></div>
-        <div className="row">
+        <div className="row mainRow">
           <MainPageVideo />
           <MainPageAbout />
           <MainPagePhoto />
