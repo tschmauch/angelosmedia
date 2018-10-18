@@ -30,9 +30,10 @@ h1 {
 
 .mainPage {
   float: left;
-  text-align: center;
-  vertical-align: middle;
   background-color: transparent;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .mainRow {
@@ -45,7 +46,7 @@ h1 {
 }
 
 #mainPageVideo.hovering {
-  background-image: url('../images/icebergLeft.jpg');
+  background-image: url('../images/reelGIF.gif');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -56,7 +57,7 @@ h1 {
 }
 
 #mainPageAbout.hovering {
-  background-image: url('../images/icebergMid.jpg');
+  background-image: url('../images/colbyPack.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -67,7 +68,7 @@ h1 {
 }
 
 #mainPagePhoto.hovering {
-  background-image: url('../images/icebergRight.jpg');
+  background-image: url('../images/oceanBoat.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
