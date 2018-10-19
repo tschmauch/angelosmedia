@@ -50,7 +50,6 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  back
   height: 100%;
   overflow: auto;
   overflow-x: hidden;
@@ -61,18 +60,16 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  back
   height: 100%;
   overflow: auto;
   overflow-x: hidden;
 }
 
 #mainPagePhoto.hovering {
-  background-image: url('../images/oceanBoat.jpg');
+  background-image: url('../images/photoReelGif.gif');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  back
   height: 100%;
   overflow: auto;
   overflow-x: hidden;

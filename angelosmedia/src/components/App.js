@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Route} from 'react-router-dom';
 import NavBar from './NavBar';
 import MainPageVideo from './MainPageVideo';
 import MainPageAbout from './MainPageAbout';
