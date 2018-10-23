@@ -1,5 +1,6 @@
 import React from 'react';
 import CreateReactClass from 'create-react-class';
+import { Link } from 'react-router-dom'
 // import axios from 'axios';
 
 var MainPageAbout = CreateReactClass({
@@ -28,9 +29,9 @@ var MainPageAbout = CreateReactClass({
         className={ this.state.hover ? "hovering mainPage col-sm-4 col-xs-12" : "notHovering mainPage col-sm-4 col-xs-12" }
           onMouseEnter={this.hoverOn}
           onMouseLeave={this.hoverOff}>
-        <a href="/" >
-          <h1>ABOUT</h1>
-        </a>
+        <Link to="/about" >
+          <h2>ABOUT</h2>
+        </Link>
       </div>
 
     )

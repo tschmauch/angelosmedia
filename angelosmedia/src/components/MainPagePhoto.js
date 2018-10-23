@@ -1,5 +1,6 @@
 import React from 'react';
 import CreateReactClass from 'create-react-class';
+import { Link } from 'react-router-dom'
 // import axios from 'axios';
 
 var MainPagePhoto = CreateReactClass({
@@ -28,9 +29,9 @@ var MainPagePhoto = CreateReactClass({
         className={ this.state.hover ? "hovering mainPage col-sm-4 col-xs-12" : "notHovering mainPage col-sm-4 col-xs-12" }
           onMouseEnter={this.hoverOn}
           onMouseLeave={this.hoverOff}>
-        <a href="/" >
-          <h1>PHOTO</h1>
-        </a>
+        <Link to="/photo" >
+          <h2>PHOTO</h2>
+        </Link>
       </div>
 
     )
